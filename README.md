@@ -18,3 +18,13 @@ All .txt files containing tags will also be deleted.
 There is some small amount of config in Grabber needed I will need to update this with how to do it. 
 
 This can also work with other things as well, the only things it needs is an image file, and a .txt file containing the tags 1 tag per line. It will upload and all the tags.
+
+# Configure grabber
+
+Go into grabber select Tools > Options expand Save > Separate log files > Add.
+
+Name it tags, change it to suffex, for the suffex put in .txt and for the text file content paste 
+```
+rating:%rating%
+%all:includenamespace,excludenamespace=general,unsafe,spaces,separator=\n%
+```
