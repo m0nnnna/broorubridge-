@@ -9,7 +9,7 @@ Did you know it's possible to configure Grabber to generate a .txt file when dow
 
 This script is made to be ran, or with some editing turning it into a watcher, after downloading a bunch of files through Grabber. 
 
-Fill in the needed 3 lines in the script then run. What will happen is a new .txt file will show in your picture directory. This is here so it can keep track of all the file names, this prevents doubles from being uploaded as Szuru does try to track it but not really. 
+In the script you will need to set your szuru url with http/https. Once you log in generate a login token then go to https://www.base64encode.org/ put inside username:token and hit generate. This will be used for auth. Then change directory from "title" to the directory you want it to monitor.
 
 All files that are uploaded without issue are deleted, all files that are doubles are also deleted, all files that do not upload will not be deleted so you can review. 
 
